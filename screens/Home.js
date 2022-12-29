@@ -54,11 +54,28 @@ export default function Home({ navigation }) {
 			</View>
 			<ScrollView showsVerticalScrollIndicator={false}>
 				<Categories />
-				<RestaurantItems
-					restaurantData={restaurantData}
-					navigation={navigation}
-				/>
+				{restaurantData.length > 0 ? (
+					<RestaurantItems
+						restaurantData={restaurantData}
+						navigation={navigation}
+					/>
+				) : (
+					<View
+						style={{
+							backgroundColor: "white",
+							height: "100%",
+							justifyContent: "center",
+							alignContent: "center",
+							width: "100%",
+						}}
+					>
+						<Text style={{ textAlign: "center" }}>
+							Enter your location to view local restaurants
+						</Text>
+					</View>
+				)}
 			</ScrollView>
+
 			<View style={{ backgroundColor: "white", padding: 15 }}>
 				<BottomTabs />
 			</View>

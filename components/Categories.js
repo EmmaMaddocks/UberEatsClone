@@ -4,31 +4,31 @@ import React from "react";
 const items = [
 	{
 		image: require("../assets/images/shopping-bag.png"),
-		text: "Pick-up",
-	},
-	{
-		image: require("../assets/images/soft-drink.png"),
-		text: "Soft Drinks",
-	},
-	{
-		image: require("../assets/images/deals.png"),
-		text: "Deals",
-	},
-	{
-		image: require("../assets/images/coffee.png"),
-		text: "Coffee and Tea",
-	},
-	{
-		image: require("../assets/images/desserts.png"),
-		text: "Desserts",
-	},
-	{
-		image: require("../assets/images/fast-food.png"),
 		text: "Fast Food",
 	},
 	{
+		image: require("../assets/images/soft-drink.png"),
+		text: "Indian",
+	},
+	{
+		image: require("../assets/images/deals.png"),
+		text: "Chinese",
+	},
+	{
+		image: require("../assets/images/coffee.png"),
+		text: "Pizza",
+	},
+	{
+		image: require("../assets/images/desserts.png"),
+		text: "Turkish",
+	},
+	{
+		image: require("../assets/images/fast-food.png"),
+		text: "Fish & Chips",
+	},
+	{
 		image: require("../assets/images/bread.png"),
-		text: "Bakery",
+		text: "Greek",
 	},
 ];
 
